@@ -70,6 +70,12 @@ Full tutorial and API reference: **[chchatham.github.io/specparam-fft-weights](h
 | `apply_spectral_weights(signal, weights)` | Apply pre-computed weights to a signal's FFT |
 | `extract_residual(signal, reconstruction)` | `signal - reconstruction` with validation |
 
+## Citation
+
+This package builds on SpecParam (formerly FOOOF). If you use this tool in published work, please cite the original paper:
+
+> Donoghue T, Haller M, Peterson EJ, Varma P, Sebastian P, Gao R, Noto T, Lara AH, Walber JD, Knight RT, Shestyuk A, Voytek B (2020). Parameterizing neural power spectra into periodic and aperiodic components. *Nature Neuroscience*, 23, 1655-1665. DOI: [10.1038/s41593-020-00744-x](https://doi.org/10.1038/s41593-020-00744-x)
+
 ## License
 
 MIT
