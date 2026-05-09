@@ -1,0 +1,3 @@
+title: specparam-fft-weights
+description: Time-domain signal reconstruction from SpecParam spectral models via FFT weighting
+theme: jekyll-theme-cayman

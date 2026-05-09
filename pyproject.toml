@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "specparam-fft-weights"
+version = "0.1.0"
+description = "Time-domain reconstruction from SpecParam spectral models via FFT weighting"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [
+    {name = "Chris Chatham"},
+]
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+]
+
+[project.optional-dependencies]
+specparam = ["specparam>=2.0"]
+dev = [
+    "pytest>=7.0",
+    "specparam>=2.0",
+]
+
+[project.urls]
+Homepage = "https://chchatham.github.io/specparam-fft-weights/"
+Repository = "https://github.com/chchatham/specparam-fft-weights"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
